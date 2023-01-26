@@ -5,14 +5,14 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
-Char[] Array = new char[5];
-Char[] Array2 = new char[3];
-void FillArray(char[] Array, char[] Array2)
+string [] Array = new string[5];
+string[] Array2 = new string[3];
+void FillArray(string[] Array, string[] Array2)
 {
     for (int i = 0; i < 5; i++)
     {
         Console.WriteLine("Напишите строку массива");
-        char n = Convert.ToChar(Console.ReadLine());
+        string n = Convert.ToString(Console.ReadLine());
         Array[i] = n;
     }
     for (int i = 0; i < 3; i++)
@@ -20,7 +20,7 @@ void FillArray(char[] Array, char[] Array2)
         Array2[i] = Array[i];
     }
 }
-void PrintArray(char[] Array2)
+void PrintArray(string[] Array2)
 {
     for (int i = 0; i < Array2.Length; i++)
     {
