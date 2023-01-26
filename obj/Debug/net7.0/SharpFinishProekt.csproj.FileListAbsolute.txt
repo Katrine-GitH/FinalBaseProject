@@ -1,0 +1,15 @@
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.csproj.AssemblyReference.cache
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.AssemblyInfoInputs.cache
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.AssemblyInfo.cs
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.csproj.CoreCompileInputs.cache
+C:\Users\kate\Desktop\SharpFinishProekt\bin\Debug\net7.0\SharpFinishProekt.exe
+C:\Users\kate\Desktop\SharpFinishProekt\bin\Debug\net7.0\SharpFinishProekt.deps.json
+C:\Users\kate\Desktop\SharpFinishProekt\bin\Debug\net7.0\SharpFinishProekt.runtimeconfig.json
+C:\Users\kate\Desktop\SharpFinishProekt\bin\Debug\net7.0\SharpFinishProekt.dll
+C:\Users\kate\Desktop\SharpFinishProekt\bin\Debug\net7.0\SharpFinishProekt.pdb
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.dll
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\refint\SharpFinishProekt.dll
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.pdb
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\SharpFinishProekt.genruntimeconfig.cache
+C:\Users\kate\Desktop\SharpFinishProekt\obj\Debug\net7.0\ref\SharpFinishProekt.dll
