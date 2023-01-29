@@ -5,9 +5,7 @@
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
-string [] Array = new string[5];
-string[] Array2 = new string[3];
-void FillArray(string[] Array, string[] Array2)
+void FillArray(string[] Array)
 {
     for (int i = 0; i < 5; i++)
     {
@@ -15,17 +13,35 @@ void FillArray(string[] Array, string[] Array2)
         string n = Convert.ToString(Console.ReadLine());
         Array[i] = n;
     }
-    for (int i = 0; i < 3; i++)
-    {
-        Array2[i] = Array[i];
-    }
 }
-void PrintArray(string[] Array2)
+string[] FilterArray(string[] Array)
 {
-    for (int i = 0; i < Array2.Length; i++)
+    List<string> a = new List<string>();
+    //a.
+    //return Array;
+    for (int i = 0; i < Array.Length; i++)
+    {
+        //Console.WriteLine($"INDEX {i}=");
+        if (Array[i].Length<=3)
+        {
+            a.Add(Array[i]);
+        }
+    }
+    string[] Result = new string[a.Count]; 
+    a.CopyTo(Result);
+    return Result;
+}
+void PrintArray(string[] Array)
+{
+    for (int i = 0; i < Array.Length; i++)
     {
         Console.WriteLine($"INDEX {i}={Array[i]}");
     }
 }
-FillArray(Array, Array2);
-PrintArray(Array2);
+
+string[] SourceArray = new string[5];
+//string[] Array2 = new string[5];
+
+FillArray(SourceArray);
+string[] ResultArray = FilterArray(SourceArray);
+PrintArray(ResultArray);
